@@ -1,0 +1,15 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.transform1 {
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+}
+
+.transform1:hover {
+    width: 1000px;
+}
